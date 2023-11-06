@@ -1,0 +1,19 @@
+main {
+    width: 50%;
+}
+.valid-visible {
+    display: none;
+}
+.invalid-visible {
+    display: none;
+}
+.valid {
+    color: green;
+}
+.invalid {
+    color: red;
+}
+.tablazat{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
