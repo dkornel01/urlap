@@ -1,6 +1,8 @@
 export const adat = [
-    { nev: "Lackffy János", szul: 1969 },
-    { nev: "József Attila", szul: 1905 },
+    { nev: "Lackffy János", szul: 1969, email: "DK@gmail",jelszo: 1234 },
+    { nev: "József Attila", szul: 1905 ,email:"JA@gmail",jelszo: "DAE123"},
+    { vnev: "Adam",knev:"Daviv",szul:"1905-02-23",email:"AD@gmail", jelszo: "ADADAD"},
+    { vnev: "Janos",knev:"Atta", szul: "1905-02-23",email:"JAtta@gmail",jelszo: "hasva"}
 ];
 /* 
 export const tipus = { nev: "text", szul: "number" };

@@ -14,6 +14,17 @@ main {
     color: red;
 }
 .tablazat{
-    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     display: grid;
+   /*display: table-column-group;*/
 }
+/*table {
+    display: table;
+}
+table tr {
+    display: table-cell;
+}
+table tr td {
+    display: contents;
+}*/
